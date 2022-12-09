@@ -8,7 +8,7 @@ def AreBufferCharactersAllDifferent(buffer):
 
     return True
 
-data = open("Day6Data.txt", 'r').read()
+data = open("data/Day6Data.txt", 'r').read()
 
 buffer = []
 maxBufferSize = 4

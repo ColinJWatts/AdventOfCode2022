@@ -59,7 +59,7 @@ playScoreLookup = {
     'S' : 3
 }
 
-data = open("Day2Data.txt", 'r').readlines()
+data = open("data/Day2Data.txt", 'r').readlines()
 
 matchups = []
 totalScore = 0

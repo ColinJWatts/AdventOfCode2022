@@ -1,6 +1,6 @@
 from SortedBuffer import SortedBuffer
 
-data = open("Day1Data.txt", 'r').readlines()
+data = open("data/Day1Data.txt", 'r').readlines()
 
 currElfNum = 1
 currElfVal = 0

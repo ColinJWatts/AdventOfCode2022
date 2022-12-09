@@ -11,7 +11,7 @@ def DoAandBOverlap(a, b):
 
     return len(overlap) > 0
 
-data = open("Day4Data.txt", 'r').readlines()
+data = open("data/Day4Data.txt", 'r').readlines()
 
 
 totalContained = 0

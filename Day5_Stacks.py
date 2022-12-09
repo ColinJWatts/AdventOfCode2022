@@ -45,7 +45,7 @@ class StackSetup:
 
         print(result)
 
-data = open("Day5Data.txt", 'r').readlines()
+data = open("data/Day5Data.txt", 'r').readlines()
 
 stackData = []
 i=0

@@ -38,7 +38,7 @@ class RuckSack:
                 return k
 
 
-data = open("Day3Data.txt", 'r').readlines()
+data = open("data/Day3Data.txt", 'r').readlines()
 ruckSacks = []
 totalPriority = 0
 
