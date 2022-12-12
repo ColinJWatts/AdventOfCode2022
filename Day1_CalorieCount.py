@@ -19,13 +19,9 @@ for i in range(len(data)):
         currElfNum += 1
         currElfVal = 0
 
-
 sum = 0
 for i in range(len(topThree.buffer)):
     print(f"Elves: {topThree.keys[i]}   Val: {topThree.buffer[i]}")
     sum += topThree.buffer[i]
 
 print(f"Sum : {sum}")
-
-
-

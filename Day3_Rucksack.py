@@ -37,7 +37,6 @@ class RuckSack:
             if k in other2.full.keys():
                 return k
 
-
 data = open("data/Day3Data.txt", 'r').readlines()
 ruckSacks = []
 totalPriority = 0

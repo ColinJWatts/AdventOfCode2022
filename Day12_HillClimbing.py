@@ -59,7 +59,6 @@ def BFS (nodes, start, end):
                 toSearch.append(n)
                 paths.append(p.copy())
 
-
 data = get_input("data/Day12Data.txt")
 
 map = [[0 for j in range(len(data))] for i in range(len(data[0]))]

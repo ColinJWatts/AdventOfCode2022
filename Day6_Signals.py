@@ -28,4 +28,3 @@ for i in range(len(data)):
             break
 
 print(charCount)
-

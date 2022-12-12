@@ -50,7 +50,6 @@ class Directory:
         for dir in self.directories.values():
             dir.Print(indent + 2)
 
-
 data = open("data/Day7Data.txt", 'r').readlines()
 totalMemory = 70000000
 requiredMemory = 30000000

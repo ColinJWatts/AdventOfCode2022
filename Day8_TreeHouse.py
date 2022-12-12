@@ -24,7 +24,6 @@ def UpdateVisible_LookDown(trees, visible):
                 maxHeights[x] = trees[x][y]
                 visible[x][y] = 1
 
-
 def UpdateVisible_LookRight(trees, visible):
     maxHeights = []
     for i in range(len(trees[0])):

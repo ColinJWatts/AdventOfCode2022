@@ -1,4 +1,3 @@
-
 def GetAssignmentAsTuple(raw):
     temp = raw.split("-")
     return (int(temp[0]), int(temp[1]))
@@ -13,7 +12,6 @@ def DoAandBOverlap(a, b):
 
 data = open("data/Day4Data.txt", 'r').readlines()
 
-
 totalContained = 0
 totalOverlapping = 0
 
@@ -24,8 +22,6 @@ for d in data:
 
     if IsAInB(elf1Assignment, elf2Assignment) or IsAInB(elf2Assignment, elf1Assignment):
         totalContained += 1
-
-    
 
     if DoAandBOverlap(elf1Assignment, elf2Assignment):
         totalOverlapping += 1

@@ -1,4 +1,3 @@
-
 #part 1
 def StandardizeMatchup(matchup):
     # this takes in a matchup and standardizes to to [R, P, S]
@@ -15,7 +14,6 @@ def StandardizeMatchup(matchup):
     }
         
     return [opponentLookup[matchup[0]], playerLookup[matchup[1]]]
-
 
 #part 2 
 def StandardizeMatchups2(matchup):
@@ -41,7 +39,6 @@ def StandardizeMatchups2(matchup):
     playerThrow = playerLookup[(oppenentThrow, matchup[1])]
     return[oppenentThrow, playerThrow]
 
-
 def GetOutcomeScore(matchup):
     if (matchup[0] == matchup[1]):
         return 3
@@ -51,7 +48,6 @@ def GetOutcomeScore(matchup):
         return 6
     
     return 0
-
 
 playScoreLookup = {
     'R' : 1,
@@ -74,4 +70,3 @@ for d in data:
     totalScore += roundScore
 
 print(f"Total Score: {totalScore}")
-
