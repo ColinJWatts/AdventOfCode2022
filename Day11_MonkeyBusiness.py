@@ -34,7 +34,6 @@ class Monkey:
         return updatedItems, targets
 
 
-
 def ParseMonkey(raw):
     # Parse the items the monkey is holding
     startingItems = [int(x.strip()) for x in raw[1][len("  Starting items:"):].split(",")]

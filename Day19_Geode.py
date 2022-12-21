@@ -154,6 +154,7 @@ for factory in factories:
 
         maxExtraGeodes = sum([i for i in range(numMin-minute+1)])   
         # print(maxExtraGeodes)   
+        prevMaxes = tempMax
         tempMax = maxGeodes
         for f in toCheck:
             actions = f.GetPossibleActions()

@@ -28,10 +28,6 @@ for j in range(10):
         else:
             values.append(pointer)
 
-        # print(f"-- {i}: moving {pointer.value} --")
-        # for v in values:
-        #     print(v.value)
-        # print()
 zeroIdx = values.index(zeroPoint)
 print(f"1000th: {values[(1000+zeroIdx)%len(values)].value}\n2000th: {values[(2000+zeroIdx)%len(values)].value}\n3000th: {values[(3000+zeroIdx)%len(values)].value}")
 print(values[(1000+zeroIdx)%len(values)].value + values[(2000+zeroIdx)%len(values)].value + values[(3000+zeroIdx)%len(values)].value)
